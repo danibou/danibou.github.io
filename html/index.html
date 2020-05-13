@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/index.css">
+    
     <title>Bienvenido</title>
 
 
@@ -12,6 +13,7 @@
 
 
 <body>
+
 
 <h1>Bienvenido a mi Proyecto Marcas</h1>
 
@@ -28,49 +30,9 @@
     <input type="button" value="Olvidaste tu contraseña">
     <p id="aviso"></p>
 
-    <script>
-           
-           crear("#btn").addEventListener("click",function(){
-              comprobar();
-           }   )
-    
-     function comprobar() { 
-         var usuario = document.formulario.usuario;
-         var contraseña = document.formulario.contraseña;
-         var aviso = document.getElementById("aviso");
-         aviso.innerHTML = ""
-         var enviar = "si"
-         if (usuario.value == "" || usuario.value.indexOf(" ") == 0) {
-            var texto = "Es obligatorio introducir un usuario válido.<br/>"  
-            aviso.innerHTML += texto
-            enviar = "no"
-            }
-         if (contraseña.value == "" || contraseña.value.indexOf(" ") == 0 ) {
-            var texto = "Es obligatorio introducir una contraseña válida.<br/>"  
-            aviso.innerHTML += texto
-            enviar = "no"
-            }
-    
-         if (enviar == "no") {return false} 
-             
-             
-            
-           }
-
-           
-    function restaurar() {
-         var aviso = document.getElementById("aviso");
-         aviso.innerHTML = ""
-         }  
-
-    
-    function crear(selector){
-        return document.querySelector(selector);
-        }
-    
-    </script>
+    <script src="../javascript/index.js"></script>
 </fieldset>
 </form>
-
+<footer><audio src="../audio/AHORA 00 - Ahora'00 1-4 - 08. I Want Your Love-Raps 'N' Skar.mp3"  autoplay controls height="10px"></audio></footer>
 </body>
 </html>

@@ -25,4 +25,9 @@ h1 {
 a{
     text-decoration: none;
 }
-  
+ audio{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+ } 
