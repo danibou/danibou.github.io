@@ -388,6 +388,9 @@ footer {
   table{
 width: 100%; 
   }
+  a{
+    text-decoration: none;
+  }
 table td{
   font-size: 25px;
   font-family: "Cherry Swash", cursive;
