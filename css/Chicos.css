@@ -7,6 +7,10 @@ body {
     margin: 0;
     text-align: center;
   }
+  audio{
+    height:20px;
+    width: 40%;
+  }
    /*footer*/
 footer {
   background-color: grey;

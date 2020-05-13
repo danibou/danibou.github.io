@@ -8,6 +8,10 @@ body {
     margin: 0;
     text-align: center;
   }
+  audio{
+    height:20px;
+    width: 40%;
+  }
   h1{
     text-shadow: 3px 3px black;
     font-family: "Cherry Swash", cursive;

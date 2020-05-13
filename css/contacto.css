@@ -109,6 +109,10 @@ body {
     text-shadow: 2px 2px 4px #000000;
     font-family: "Cherry Swash", cursive;
   }
+  audio{
+    height:20px;
+    width: 40%;
+  }
   /*footer*/
 footer {
   background-color: grey;
