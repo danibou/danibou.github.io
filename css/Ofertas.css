@@ -9,11 +9,12 @@ body {
     text-align: center;
   }
   h1{
+    text-shadow: 3px 3px black;
     font-family: "Cherry Swash", cursive;
     font-size: 50px
   }
   div{
-    
+    box-shadow: 3px 3px black;
     display: inline-block;
     margin: 10px;
     
