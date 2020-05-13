@@ -1,0 +1,402 @@
+body {
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  background: black;
+  color: #eeeeee;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/*menu nav-principal*/
+
+.nav1 {
+  margin: 27px auto 0;
+  position: relative;
+  width: 735px;
+  height: 50px;
+  background-color: #68798aa4;
+  border-radius: 8px;
+  font-size: 0;
+}
+
+.nav1 a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+/*animacion efectos menu-barra*/
+
+.nav1 .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all 0.5s ease 0s;
+  border-radius: 8px;
+}
+
+a:nth-child(1) {
+  width: 100px;
+}
+
+a:nth-child(2) {
+  width: 110px;
+}
+
+a:nth-child(3) {
+  width: 175px;
+}
+
+a:nth-child(4) {
+  width: 175px;
+}
+
+a:nth-child(5) {
+  width: 175px;
+}
+
+.nav1 .boton1,
+a:nth-child(1):hover ~ .animation {
+  width: 95px;
+  left: 0px;
+  background-color: #1abc9c;
+}
+
+.nav1 .boton2,
+a:nth-child(2):hover ~ .animation {
+  width: 110px;
+  left: 100px;
+  background-color: #e74c3c;
+}
+
+.nav1 .boton3,
+a:nth-child(3):hover ~ .animation {
+  width: 175px;
+  left: 220px;
+  background-color: #3498db;
+}
+
+.nav1 .boton4,
+a:nth-child(4):hover ~ .animation {
+  width: 160px;
+  left: 390px;
+  background-color: #9b59b6;
+}
+
+.nav1 .boton5,
+a:nth-child(5):hover ~ .animation {
+  width: 175px;
+  left: 570px;
+  background-color: #e67e22;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Cherry Swash", cursive;
+}
+
+/*--------------------------------------------*/
+
+/*menu nav2-esferas*/
+
+.esfera,
+.esfera-blanca {
+  background: #eeeeee;
+  border-radius: 100%;
+  width: 175px;
+  height: 175px;
+  top: 0;
+  margin-left: -800px;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  line-height: 80px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform ease-out 200ms;
+  transition: -webkit-transform ease-out 200ms;
+  transition: transform ease-out 200ms;
+  transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+}
+
+/*Efecto lineas interior esfera-blanca*/
+
+.menu-open {
+  display: none;
+}
+
+.lineas {
+  width: 25px;
+  height: 3px;
+  background: #596778;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -12.5px;
+  margin-top: -1.5px;
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+}
+
+.linea1 {
+  -webkit-transform: translate3d(0, -8px, 0);
+  transform: translate3d(0, -8px, 0);
+}
+
+.linea2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.linea3 {
+  -webkit-transform: translate3d(0, 8px, 0);
+  transform: translate3d(0, 8px, 0);
+}
+
+.menu-open:checked + .esfera-blanca .linea1 {
+  -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
+  transform: translate3d(0, 0, 0) rotate(45deg);
+}
+
+.menu-open:checked + .esfera-blanca .linea2 {
+  -webkit-transform: translate3d(0, 0, 0) scale(0.1, 1);
+  transform: translate3d(0, 0, 0) scale(0.1, 1);
+}
+
+.menu-open:checked + .esfera-blanca .linea3 {
+  -webkit-transform: translate3d(0, 0, 0) rotate(-45deg);
+  transform: translate3d(0, 0, 0) rotate(-45deg);
+}
+
+.nav2 {
+  margin: 5% auto;
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0px;
+  height: 80px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+/*Animacion/efecto al mantener cursor sobre las esferas-colores*/
+
+.esfera {
+  transition: all 0.1s ease 0s;
+}
+
+.esfera:hover {
+  background: #eeeeee;
+  color: #3290b1;
+}
+
+.esfera:nth-child(3) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+}
+
+.esfera:nth-child(4) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+}
+
+.esfera:nth-child(5) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+}
+
+.esfera:nth-child(6) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+}
+
+.esfera:nth-child(7) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+}
+
+/*animacion posicion esferas exteriores*/
+
+.esfera-blanca {
+  z-index: 6;
+  -webkit-transition-timing-function: cubic-bezier(
+    0.175,
+    0.885,
+    0.32,
+    1.275
+  );
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+}
+
+.esfera-blanca:hover {
+  -webkit-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+
+.menu-open:checked + .esfera-blanca {
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+}
+
+.menu-open:checked ~ .esfera {
+  -webkit-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+  transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+}
+
+.menu-open:checked ~ .esfera:nth-child(3) {
+  z-index: 5;
+  transition-duration: 80ms;
+  -webkit-transition-duration: 80ms;
+  -webkit-transform: translate3d(0px, 0px, 0);
+  transform: translate3d(0px, 100px, 0);
+}
+
+.menu-open:checked ~ .esfera:nth-child(4) {
+  z-index: 4;
+  transition-duration: 180ms;
+  -webkit-transition-duration: 180ms;
+  -webkit-transform: translate3d(0px, 100px, 0);
+  transform: translate3d(0px, 200px, 0);
+}
+
+.menu-open:checked ~ .esfera:nth-child(5) {
+    z-index: 3;
+  transition-duration: 280ms;
+  -webkit-transition-duration: 280ms;
+  -webkit-transform: translate3d(0px, 200px, 0);
+  transform: translate3d(0px, 300px, 0);
+}
+
+.menu-open:checked ~ .esfera:nth-child(6) {
+    z-index: 2;
+  transition-duration: 380ms;
+  -webkit-transition-duration: 380ms;
+  -webkit-transform: translate3d(0px, 300px, 0);
+  transform: translate3d(0px, 400px, 0);
+}
+
+.menu-open:checked ~ .esfera:nth-child(7) {
+    z-index: 1;
+  transition-duration: 480ms;
+  -webkit-transition-duration: 480ms;
+  -webkit-transform: translate3d(0px, 400px, 0);
+  transform: translate3d(0px, 500px, 0);
+}
+
+/*color de las esferas*/
+
+.verde {
+  background-color: #70cc72;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.verde:hover {
+  color: #70cc72;
+  text-shadow: none;
+}
+
+.rojo {
+  background-color: #fe4365;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.rojo:hover {
+  color: #fe4365;
+  text-shadow: none;
+}
+.azul {
+  background-color: #669ae1;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.azul:hover {
+  color: #669ae1;
+  text-shadow: none;
+}
+.morado {
+  background-color: #c49cde;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.morado:hover {
+  color: #c49cde;
+  text-shadow: none;
+}
+
+.naranja {
+  background-color: #fc913a;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.naranja:hover {
+  color: #fc913a;
+  text-shadow: none;
+}
+
+/*aside*/
+
+.ventana2 {
+  position: absolute;
+  right: 20%;
+  bottom: 20%;
+}
+
+/*footer*/
+footer {
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+  table{
+width: 100%; 
+  }
+table td{
+  font-size: 25px;
+  font-family: "Cherry Swash", cursive;
+  width: 33%;
+}
+table td:nth-child(1){
+    padding-bottom: 2%;
+    
+}
+table td:nth-child(2){
+    padding-bottom: 2%;
+}
