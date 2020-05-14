@@ -14,6 +14,28 @@ audio{
   height:20px;
   width: 40%;
 }
+#Marcas{
+  position: relative;
+  left:39%;
+  bottom:450px;
+}
+#Eventos{
+  position: absolute;
+top:90%;
+margin-left: 5%;
+margin-bottom: 0;
+}
+#mapa{
+ position: relative;
+left: 0%;
+
+}
+a, p{
+  color: pink;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
 /*menu nav-principal*/
 
 .nav1 {
