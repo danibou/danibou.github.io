@@ -15,6 +15,8 @@ audio{
   width: 40%;
 }
 #Marcas{
+  z-index: 0;
+ 
   position: relative;
   left:37%;
   bottom:400px;
@@ -25,11 +27,7 @@ top:90%;
 margin-left: 5%;
 margin-bottom: 0;
 }
-#mapa{
- position: relative;
-left: 0%;
 
-}
 a, p{
   color: pink;
   font-family: 'Courier New', Courier, monospace;
@@ -400,6 +398,7 @@ h1 {
 /*aside*/
 
 .ventana2 {
+  z-index: 2;
   position: absolute;
   right: 22%;
   bottom: 8%;
