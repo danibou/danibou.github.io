@@ -16,8 +16,8 @@ audio{
 }
 #Marcas{
   position: relative;
-  left:39%;
-  bottom:450px;
+  left:37%;
+  bottom:400px;
 }
 #Eventos{
   position: absolute;
@@ -307,7 +307,7 @@ h1 {
   transition-duration: 80ms;
   -webkit-transition-duration: 80ms;
   -webkit-transform: translate3d(0px, 0px, 0);
-  transform: translate3d(0px, 100px, 0);
+  transform: translate3d(0px, 50px, 0);
 }
 
 .menu-open:checked ~ .esfera:nth-child(4) {
@@ -322,24 +322,24 @@ h1 {
     z-index: 3;
   transition-duration: 280ms;
   -webkit-transition-duration: 280ms;
-  -webkit-transform: translate3d(0px, 200px, 0);
-  transform: translate3d(0px, 300px, 0);
+  -webkit-transform: translate3d(0px, 250px, 0);
+  transform: translate3d(0px, 350px, 0);
 }
 
 .menu-open:checked ~ .esfera:nth-child(6) {
     z-index: 2;
   transition-duration: 380ms;
   -webkit-transition-duration: 380ms;
-  -webkit-transform: translate3d(0px, 300px, 0);
-  transform: translate3d(0px, 400px, 0);
+  -webkit-transform: translate3d(0px, 400px, 0);
+  transform: translate3d(0px, 500px, 0);
 }
 
 .menu-open:checked ~ .esfera:nth-child(7) {
     z-index: 1;
   transition-duration: 480ms;
   -webkit-transition-duration: 480ms;
-  -webkit-transform: translate3d(0px, 400px, 0);
-  transform: translate3d(0px, 500px, 0);
+  -webkit-transform: translate3d(0px, 550px, 0);
+  transform: translate3d(0px, 650px, 0);
 }
 
 /*color de las esferas*/
@@ -401,8 +401,8 @@ h1 {
 
 .ventana2 {
   position: absolute;
-  right: 20%;
-  bottom: 20%;
+  right: 22%;
+  bottom: 8%;
 }
 
 /*footer*/
