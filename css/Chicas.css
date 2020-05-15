@@ -11,6 +11,24 @@ body {
     height:20px;
     width: 40%;
   }
+  h5{
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #fafafa;
+    text-shadow: 2px 2px 4px #ec68ec;
+    font-family: "Cherry Swash", cursive;
+  }
+  h1,h5{
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #fafafa;
+    text-shadow: 2px 2px 4px #ec68ec;
+    font-family: "Cherry Swash", cursive;
+  }
    /*footer*/
 footer {
   background-color: grey;

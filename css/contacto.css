@@ -132,6 +132,18 @@ table td{
 a{
   text-decoration: none;
 }
+#gif{
+  float: left;
+}
+h1{
+text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 4px #f8150d;
+    font-family: "Cherry Swash", cursive;
+}
 table td:nth-child(1){
     padding-bottom: 2%;
     
