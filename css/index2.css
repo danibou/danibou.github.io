@@ -49,7 +49,7 @@ h5{
 }
 #publicidad{
   position: relative;
- height: 100%;
+ height: 80%;
  width: 25%;
 left: 78%;
 bottom: 430px;
@@ -57,7 +57,7 @@ bottom: 430px;
 #publi{
   background-color: rgb(236, 236, 119);
   height: 600px;
-  width: 360px;
+  width: 80%;
   
 }
 #ads{
