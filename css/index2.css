@@ -16,12 +16,27 @@ audio {
 }
 
 #Marcas {
-  height: 800px;
-  width: 316px;
+  height: 100%;
+  width: 25%;
   z-index: 0;
   position: relative;
-  left: 78%;
+  left: 76%;
   bottom: 450px;
+}
+h5{
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  text-shadow: 2px 2px 4px #ec68ec;
+  font-family: "Cherry Swash", cursive;
+}
+ 
+
+.iframe2{
+  height:100% ;
+  width: 75%;
 }
 #Eventos {
   position: absolute;
@@ -134,7 +149,7 @@ a:nth-child(5):hover ~ .animation {
   background-color: rgb(88, 88, 88);
 }
 
-h1 {
+h1{
   text-align: center;
   margin: 40px 0 40px;
   text-align: center;
