@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/chicas.xsl"?>
+<chicas>
+    <imagen>
+    <centrar>center</centrar>
+<ancho>75%</ancho>
+        <nombre>../fotos/imagenes/Chicas/prueba.jpg</nombre>
+    </imagen>
+    <imagen>
+    <centrar>center</centrar>
+<ancho>75%</ancho>
+        <nombre>../fotos/imagenes/Chicas/prueba_2.jpg</nombre>
+    </imagen>
+    <imagen>
+    <centrar>center</centrar>
+<ancho>75%</ancho>
+        <nombre>../fotos/imagenes/Chicas/prueba_3.jpg</nombre>
+    </imagen>
+    <imagen>
+    <centrar>center</centrar>
+<ancho>75%</ancho>
+        <nombre>../fotos/imagenes/Chicas/prueba_4.jpg</nombre>
+    </imagen>
+    <imagen>
+    <centrar>center</centrar>
+<ancho>75%</ancho>
+        <nombre>../fotos/imagenes/Chicas/prueba_5.jpg</nombre>
+    </imagen>
+  
+</chicas>
