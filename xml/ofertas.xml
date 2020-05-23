@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/ofertas.xsl"?>
+<Catalogo>
+        <Peluqueria>
+            <women>
+        <oferta>
+            <pack>Tinte+Peinado+Tratamiento</pack>
+            <precio>40 Euros</precio>
+        </oferta>
+        
+        <oferta>
+            <pack>Mechas+Peinado+Tratamiento</pack>
+            <precio>50 Euros</precio>
+        </oferta>
+         <oferta>
+                <pack>Manicura y pedicura con Esmalt. Permanente</pack>
+                <precio>40 Euros</precio>
+            </oferta>
+            <oferta>
+                <pack>Higiene Facial</pack>
+                <precio>35 Euros</precio>  
+            </oferta>
+            <oferta>
+                <pack>Lifting + Pestañas</pack>
+                <precio>30 Euros</precio>
+            </oferta> 
+            </women>
+           <men>
+           
+        <oferta>
+            <pack>Lavar y Cortar</pack>
+            <precio>12 Euros</precio></oferta>
+        <oferta>
+            <pack>Cortar y Barba</pack>
+            <precio>20 Euros</precio>
+        </oferta>
+           </men> 
+  <children>
+        <oferta>
+            <pack>Cortar</pack>
+            <precio>8 Euros</precio>
+        </oferta>
+  </children>
+        </Peluqueria>
+</Catalogo>
