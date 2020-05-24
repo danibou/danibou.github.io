@@ -32,7 +32,8 @@ body {
   }
    /*footer*/
 footer {
-  background-color: grey;
+  background: rgb(65, 65, 65);
+  background: linear-gradient(90deg, rgb(3, 3, 3) 0%, rgb(94, 93, 93)50%, rgb(255, 255, 255) 100%);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -47,13 +48,6 @@ table td{
   width: 33%;
 }
 a{
+  color: #eeeeee;
   text-decoration: none;
 }
-table td:nth-child(1){
-    padding-bottom: 2%;
-    
-}
-table td:nth-child(2){
-    padding-bottom: 2%;
-}
-  

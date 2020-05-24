@@ -10,7 +10,6 @@ body {
 
 
 
-
 audio {
   height: 20px;
   width: 40%;
@@ -21,7 +20,7 @@ audio {
   bottom: 0;
   z-index: 2;
   left: 90%;
-  
+
 
 }
 #Marcas {
@@ -30,7 +29,7 @@ audio {
   width: 20%;
   z-index: 0;
   left: 78%;
-  bottom: 55%;
+  bottom: 60%;
 }
 h5{
   text-align: center;
@@ -459,7 +458,8 @@ h1{
 
 /*footer*/
 footer {
-  background-color: grey;
+  background: rgb(65, 65, 65);
+  background: linear-gradient(90deg, rgb(3, 3, 3) 0%, rgb(94, 93, 93)50%, rgb(255, 255, 255) 100%);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -469,18 +469,16 @@ table {
   width: 100%;
 }
 a {
+  color: #eeeeee;
   font-size: 25px;
   font-family: "Cherry Swash", cursive;
   text-decoration: none;
 }
 table td {
-  font-size: 25px;
-  font-family: "Cherry Swash", cursive;
   width: 33%;
+  
 }
-table td:nth-child(1) {
-  padding-bottom: 2%;
+table td:first-child{
+  padding: 10px 10px;
 }
-table td:nth-child(2) {
-  padding-bottom: 2%;
-}
+
