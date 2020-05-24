@@ -1,0 +1,11 @@
+<!ELEMENT Catalogo (Peluqueria)>
+<!ELEMENT Peluqueria (women, men, children)>
+<!ELEMENT women (ofertas+)>
+<!ELEMENT pack (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT men (ofertas+)>
+<!ELEMENT pack (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT children (ofertas+)>
+<!ELEMENT pack (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>

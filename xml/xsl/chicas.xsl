@@ -5,10 +5,10 @@
     version="2.0">
     <xsl:template match="/">
         <html> 
-            <head>
-               <link rel="stylesheet" type="text/css" href="../css/chicas.css" />
-                <title>chicas</title> 
-            </head>
+        <head>
+            <link rel="stylesheet" type="text/css" href="../css/chicas.css" />
+            
+        </head>
             <body>
                 <audio src="../audio/Various - Ahora '00 - Disk 4 of 4 - 07. SUNNIVA - True Love.mp3" ></audio>
                 
@@ -20,7 +20,7 @@
                 <h5>For Girls</h5>
                 <hr />
                 <xsl:for-each select="chicas/imagen">
-                    <img ><xsl:attribute name="align"><xsl:value-of select="centrar"/></xsl:attribute><xsl:attribute name="width"><xsl:value-of select="ancho"/></xsl:attribute><xsl:attribute name="src"><xsl:value-of select="nombre"/></xsl:attribute></img>
+                    <img ><xsl:attribute name="align"><xsl:value-of select="centrar"/></xsl:attribute><xsl:attribute name="width"><xsl:value-of select="ancho"/></xsl:attribute><xsl:attribute name="src"><xsl:value-of select="url"/></xsl:attribute></img>
                     <hr />
                 </xsl:for-each>
             </body>

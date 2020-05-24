@@ -15,67 +15,58 @@
     ></audio>
     <nav class="nav1">
       <a .clase="boton1" target="_self" href="../html/index2.html">Home</a>
-      <a .clase="boton2" target="_self" href="../html/Chicas.html">Chicas</a>
-      <a .clase="boton3" target="_self" href="../html/Chicos.html">Chicos</a>
-      <a .clase="boton4" target="_self" href="../xsl/ofertas.xslss">Ofertas</a>
+      <a .clase="boton2" target="_self" href="../xml/xsl/chicas.xsl">Chicas</a>
+      <a .clase="boton3" target="_self" href="../xml/xsl/chicos.xsl">Chicos</a>
+      <a .clase="boton4" target="_self" href="../xsl/ofertas.xsl">Ofertas</a>
       <a .clase="boton5" target="_self" href="../index.html">Salir</a>
       <div class="animation start-home"></div>
     </nav>
 
     <h1>
-      <img id="gif" src="../fotos/imagenes/Gifs/gif1.gif" alt="" /><p> Contacta con
-      nosotros</p>
+      <p>Contacta con nosotros</p>
+      <h4>Para contactar, por favor, rellene el siguiente formulario.</h4>
     </h1>
-    <input type="checkbox" /> Acepto la Política de Privacidad
 
     <hr />
+    
+    
+      <div id="div">
+      <form id="form" name="formulario"  onsubmit="return comprobar()">
+        <label for="nombre">Motivo</label>
+        <select name="motivo" id="motivo">
+          <option value="-"></option>
+          <option value="">Cita</option>
+          <option value="">Reclamacion</option>
+          <option value="">Sugerencia</option>
+          <option value="">Publicidad</option> </select
+        ><br />
 
-    <p>Para contactar, por favor, rellene el siguiente formulario.</p>
+        <label for="nombre">Nombre y Apellidos</label>
+        <input id="caja" name="datos" type="text" onfocus="restaurar()" />
 
-    <form action="formulario" action="../html/index2.html">
-      <input type="submit" class="enviar" value="Enviar" />
-      <script src="../javascript/envioFormulario.js"></script>
-      <input type="reset" value="resetear" />
+        <label for="nombre">Email</label>
+        <input id="caja"name="correo" type="email" onfocus="restaurar()"/>
 
-      <table>
-        <tr>
-          <td><label for="nombre">Motivo</label></td>
-          <td>
-            <select name="motivo" id="motivo">
-              <option value="-"></option>
-              <option value="">Cita</option>
-              <option value="">Reclamacion</option>
-              <option value="">Sugerencia</option>
-              <option value="">Publicidad</option>
-            </select>
-          </td>
-        </tr>
-        <tr></tr>
-        <tr>
-          <td><label for="nombre">Nombre y Apellidos</label></td>
-          <td><input type="text" /></td>
-        </tr>
-        <tr>
-          <td><label for="nombre">Email</label></td>
-          <td><input type="email" /></td>
-        </tr>
-        <tr>
-          <td><label for="nombre">Telefono</label></td>
-          <td><input type="tel" /></td>
-        </tr>
-        <tr>
-          <td><label for="nombre">Telefono movil</label></td>
-          <td><input type="tel" /></td>
-        </tr>
-        <tr>
-          <td><label for="nombre">Comentarios </label></td>
-          <td>
-            <textarea name="Asunto" id="" cols="150" rows="10"></textarea>
-          </td>
-        </tr>
-      </table>
-    </form>
+        <label for="nombre">Telefono</label>
+        <input id="caja" name="telefono" type="tel" onfocus="restaurar()" />
 
+        <label for="nombre">Telefono movil</label>
+        <input id="caja" name="movil" type="tel" onfocus="restaurar()" />
+        <hr />
+
+        <label for="nombre">Comentarios </label><br />
+
+        <textarea name="asunto" id="" cols="150" rows="10" onfocus="restaurar()"></textarea><br />
+        <input type="checkbox" /> Acepto la Política de Privacidad <br />
+        <input type="submit"  id="btn"  value="Enviar"></a> 
+        <script src="../javascript/formulario2.js"></script>
+        <input type="reset" value="resetear" /><br />
+      </form>
+      <p id="aviso"></p>
+      </div>
+    
+
+    <img id="gif" src="../fotos/imagenes/Gifs/gif1.gif" alt="" />
     <footer>
       <table>
         <tr>
@@ -83,17 +74,14 @@
           <td><span> Copyright</span></td>
           <td>
             <img
-            src="../fotos/Iconos/redes sociales/facebook.png"
-            alt="error"
-          />
-          <img
-            src="../fotos/iconos/redes sociales/instagram.png"
-            alt="error"
-          />
-          <img
-            src="../fotos/iconos/redes sociales/twitter.png"
-            alt="error"
-          />
+              src="../fotos/Iconos/redes sociales/facebook.png"
+              alt="error"
+            />
+            <img
+              src="../fotos/iconos/redes sociales/instagram.png"
+              alt="error"
+            />
+            <img src="../fotos/iconos/redes sociales/twitter.png" alt="error" />
           </td>
         </tr>
       </table>

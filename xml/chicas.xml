@@ -4,27 +4,27 @@
     <imagen>
     <centrar>center</centrar>
 <ancho>75%</ancho>
-        <nombre>../fotos/imagenes/Chicas/prueba.jpg</nombre>
+        <url>../fotos/imagenes/Chicas/prueba.jpg</url>
     </imagen>
     <imagen>
     <centrar>center</centrar>
 <ancho>75%</ancho>
-        <nombre>../fotos/imagenes/Chicas/prueba_2.jpg</nombre>
+        <url>../fotos/imagenes/Chicas/prueba_2.jpg</url>
     </imagen>
     <imagen>
     <centrar>center</centrar>
 <ancho>75%</ancho>
-        <nombre>../fotos/imagenes/Chicas/prueba_3.jpg</nombre>
+        <url>../fotos/imagenes/Chicas/prueba_3.jpg</url>
     </imagen>
     <imagen>
     <centrar>center</centrar>
 <ancho>75%</ancho>
-        <nombre>../fotos/imagenes/Chicas/prueba_4.jpg</nombre>
+        <url>../fotos/imagenes/Chicas/prueba_4.jpg</url>
     </imagen>
     <imagen>
     <centrar>center</centrar>
 <ancho>75%</ancho>
-        <nombre>../fotos/imagenes/Chicas/prueba_5.jpg</nombre>
+        <url>../fotos/imagenes/Chicas/prueba_5.jpg</url>
     </imagen>
   
 </chicas>

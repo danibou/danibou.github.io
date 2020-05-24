@@ -7,6 +7,10 @@ body {
     margin: 0;
     text-align: center;
   }
+  form label{
+    display: block;    
+    } 
+
   
   /*menu nav-principal*/
   
@@ -132,9 +136,7 @@ table td{
 a{
   text-decoration: none;
 }
-#gif{
-  float: left;
-}
+
 h1{
 text-align: center;
     margin: 40px 0 40px;

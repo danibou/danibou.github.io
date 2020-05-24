@@ -1,0 +1,5 @@
+<!ELEMENT chicas (imagen+)>
+<!ELEMENT imagen (centrar, ancho, url)>
+<!ELEMENT centrar (#PCDATA)>
+<!ELEMENT ancho (#PCDATA)>
+<!ELEMENT url (#PCDATA)>

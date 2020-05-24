@@ -3,12 +3,13 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     version="2.0">
+   
     <xsl:template match="/">
        
-        <html> 
+        <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="../css/ofertas.css" />
-                <title>Ofertas</title> 
+            
+            <link rel="stylesheet" type="text/css" href="../css/ofertas.css" />
             </head>
             <body>
                 <audio src="../audio/Various - Ahora '00 - Disk 4 of 4 - 10. PROGRESS presents THE BOY WUNDA - Everybody.mp3">
