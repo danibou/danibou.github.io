@@ -19,13 +19,13 @@
 
 
 
-<form id="form" name="formulario" action="./html/index2.html" onsubmit="return comprobar()">
+<form id="form" name="formulario" action="./html/index2.html"  onsubmit="return comprobacion()">
     <label for="entrada" >Logueate para verlo</label>
 <fieldset >
     <label for="Usuario">Usuario:</label>
-    <input type="text" name="usuario" placeholder="Usuario" onfocus="restaurar()"><br>
+    <input type="text" id="usuario" placeholder="Usuario" onfocus="restaurar()"><br>
     <label for="Contraseña">Contraseña:</label>
-    <input type="password" name="contraseña" placeholder="Contraseña" onfocus="restaurar()"><br>
+    <input type="password" id="contraseña" placeholder="Contraseña" onfocus="restaurar()"><br>
     <input type="submit"  id="btn"  value="Entrar"></a> 
     <input type="button" value="Olvidaste tu contraseña">
     <p id="aviso"></p>

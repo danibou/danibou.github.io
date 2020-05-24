@@ -41,7 +41,7 @@ crear("#btn").addEventListener("click",function(){
             enviar="no"
           }
   
-        if (movil.value == "" || movil.value.indexOf(" ") == 0 ) {
+       if (movil.value == "" || movil.value.indexOf(" ") == 0 ) {
            var texto = "Es obligatorio introducir un movil.<br/>"  
            aviso.innerHTML += texto
            enviar = "no"
@@ -50,7 +50,7 @@ crear("#btn").addEventListener("click",function(){
             aviso.innerHTML += texto
             enviar="no"
            }
-        if (asunto.value == "" || asunto.value.indexOf(" ") == 0 ) {
+       if (asunto.value == "" || asunto.value.indexOf(" ") == 0 ) {
             var texto = "Es obligatorio introducir un comentario.<br/>"  
             aviso.innerHTML += texto
             enviar = "no"
