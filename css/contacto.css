@@ -1,17 +1,27 @@
 body {
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    background: rgb(241, 124, 124);
+    background: rgb(36, 0, 28);
+    background: linear-gradient(90deg, rgb(116, 1, 87) 0%, rgb(123, 3, 160) 35%, rgb(250, 138, 231) 100%);
     color: #eeeeee;
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  form label{
-    display: block;    
-    } 
+  h1{
+    text-align: left;
+  }
 
   
+  div,form,label {
+    height: 50%;
+    width: 50%;
+    display: block;
+    text-align: left; 
+  }
+ 
+
+
   /*menu nav-principal*/
   
   .nav1 {
@@ -104,20 +114,23 @@ body {
     background-color: #e67e22;
   }
   
-  h1 {
-    text-align: center;
-    margin: 40px 0 40px;
-    text-align: center;
-    font-size: 30px;
-    color: #ecf0f1;
-    text-shadow: 2px 2px 4px #000000;
-    font-family: "Cherry Swash", cursive;
-  }
   audio{
     height:20px;
     width: 40%;
   }
-
+section {
+  position: absolute;
+  left: 50%;
+  bottom: 40%;
+  height: 50%;
+  width: 50%;
+  z-index: 6;
+}
+#form2{
+  position: relative;
+  left: 25%;
+ 
+}
   /*footer*/
 footer {
   background-color: grey;
@@ -139,14 +152,28 @@ a{
 }
 
 h1{
-text-align: center;
-    margin: 40px 0 40px;
     text-align: center;
+    margin: 2% 10%;
     font-size: 30px;
     color: #fcfcfc;
-    text-shadow: 2px 2px 4px #f8150d;
+    text-shadow: 2px 2px 4px #0a0101c4;
     font-family: "Cherry Swash", cursive;
 }
+
+#titulo {
+  position: absolute;
+  right: 0%;
+}
+#aviso2{
+  position: relative;
+  left: 300px;
+}
+#titulo2{
+  position: absolute;
+  left: 15%;
+  
+}
+
 table td:nth-child(1){
     padding-bottom: 2%;
     

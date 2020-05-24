@@ -1,14 +1,15 @@
 body {
   font-size: 12px;
   font-family: "Lato", sans-serif;
-  background-image: url(../fotos/Fondos/logo.jpg);
-  background-repeat: no-repeat;
-  background-position-x: 50%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 50%, rgb(240, 92, 195) 100%);
   color: #eeeeee;
-  padding: 0;
-  margin: 0;
+  background-size: contain;
   text-align: center;
 }
+
+
+
 
 audio {
   height: 20px;
@@ -24,12 +25,12 @@ audio {
 
 }
 #Marcas {
-  height: 100%;
-  width: 25%;
+  position:  absolute;
+  height: 40%;
+  width: 20%;
   z-index: 0;
-  position: relative;
-  left: 75%;
-  bottom: 450px;
+  left: 78%;
+  bottom: 55%;
 }
 h5{
   text-align: center;
@@ -37,27 +38,31 @@ h5{
   text-align: center;
   font-size: 30px;
   color: #000000;
-  text-shadow: 2px 2px 4px #ec68ec;
+  text-shadow: 2px 2px 4px #fafafa;
   font-family: "Cherry Swash", cursive;
 }
- 
+ .logos{
+   height: 25%;
+   width: 25%;
+ }
 
 .iframe2{
   height:100% ;
   width: 75%;
   
 }
-#publicidad{
-  position: relative;
- height: 80%;
- width: 25%;
-left: 78%;
-bottom: 430px;
+#mens{
+  position: absolute;
+  height: 40%;
+  width: 20%;
+  left: 2%;
+  bottom: 30%;
 }
 #publi{
+  position: absolute;
   background-color: rgb(236, 236, 119);
-  height: 600px;
-  width: 80%;
+  height: 30%;
+  width: 15%;
   
 }
 #ads{
@@ -408,7 +413,7 @@ h1{
 }
 
 .second:hover {
-  color: white;
+  color: rgb(83, 83, 83);
   text-shadow: none;
 }
 .third {
@@ -428,7 +433,7 @@ h1{
 }
 
 .four:hover {
-  color: white;
+  color: rgb(83, 83, 83);
   text-shadow: none;
 }
 
@@ -464,6 +469,8 @@ table {
   width: 100%;
 }
 a {
+  font-size: 25px;
+  font-family: "Cherry Swash", cursive;
   text-decoration: none;
 }
 table td {

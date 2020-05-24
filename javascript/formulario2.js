@@ -68,21 +68,8 @@ crear("#btn").addEventListener("click",function(){
          var aviso = document.getElementById("aviso");
          aviso.innerHTML = ""
          }  
-         function my_alert(msg){
-            var div =document.createElement("div");
-            div.setAttribute("class","alert");
-            div.innerHTML=msg;
-           crear("body").appendChild(div);
-          
-        }
-       function my_alert2(msg2){
-            var div =document.createElement("div");
-            div.setAttribute("class","alert");
-            div.innerHTML=msg2;
-           crear("body").appendChild(div);
+         
    
-        }
-   
-           function crear(selector){
-           return document.querySelector(selector);
+    function crear(selector){
+     return document.querySelector(selector);
            }

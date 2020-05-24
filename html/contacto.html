@@ -22,51 +22,82 @@
       <div class="animation start-home"></div>
     </nav>
 
-    <h1>
-      <p>Contacta con nosotros</p>
-      <h4>Para contactar, por favor, rellene el siguiente formulario.</h4>
-    </h1>
+   
 
     <hr />
+  
+   
+    <div id="right" align="right">
+       
+    <fieldset > 
+  <form id="form2" name="formulario2" onsubmit="return comprobar2()">
+      <h1 id="titulo">Cita</h1>
+<label id="form2" for="fecha">Fecha</label>
+<input id="form2" type="date" min="2020-01-01" max="2020-12-31" name="fecha" onfocus="restaurar2()"><br>
+
+<label id="form2" for="hora">Hora</label>
+<input id="form2" type="time" name="hora"  onfocus="restaurar2()"><br>
+
+<input id="form2" type="submit"  id="btn2"  value="Pedir"> 
+<script src="../javascript/formulario.js"></script>
+<input id="form2" type="reset" value="resetear" /><br />
+  </form>  
+  <p  align="left" id="aviso2"></p>  
+</div>
+</fieldset >
+
+<div id="left" align="left">
+    <fieldset>
+  <form id="form" name="formulario"  onsubmit="return comprobar()">
+
+          <h1 id="titulo2">Contacta con nosotros </h1>
+          <h4 >Para contactar, por favor, rellene el siguiente formulario.</h4>
+       
+    <label for="nombre">Motivo</label>
+    <select name="motivo" id="motivo">
+      <option value="-"></option>
+      <option value="">Reclamacion</option>
+      <option value="">Sugerencia</option>
+      <option value="">Publicidad</option> </select
+    ><br />
+
+    <label for="nombre">Nombre y Apellidos</label>
+    <input id="caja" name="datos" type="text" onfocus="restaurar()" /><br>
+
+    <label for="nombre">Email</label>
+    <input id="caja"name="correo" type="email" onfocus="restaurar()"/><br>
+
+    <label for="nombre">Telefono</label>
+    <input id="caja" name="telefono" type="tel" onfocus="restaurar()" /><br>
+
+    <label for="nombre">Telefono movil</label>
+    <input id="caja" name="movil" type="tel" onfocus="restaurar()" /><br>
+
+
+    <label for="nombre">Comentarios </label><br />
+
+    <textarea name="asunto" id="" cols="80" rows="10" onfocus="restaurar()"></textarea><br />
+     <label for="privacidad"> Acepto la Política de Privacidad <input type="checkbox" /></label>  <br />
     
-    
-      <div id="div">
-        <fieldset>
-      <form id="form" name="formulario"  onsubmit="return comprobar()">
-        <label for="nombre">Motivo</label>
-        <select name="motivo" id="motivo">
-          <option value="-"></option>
-          <option value="">Cita</option>
-          <option value="">Reclamacion</option>
-          <option value="">Sugerencia</option>
-          <option value="">Publicidad</option> </select
-        ><br />
+    <input type="submit"  id="btn"  value="Enviar"> 
+    <script src="../javascript/formulario2.js"></script>
+    <input type="reset" value="resetear" /><br />
+  </form>
+  <p  align="left" id="aviso"></p>
+</fieldset>
+ 
+  </div>
+<section>
+  <h1 >Localizacion</h1>
+  <iframe  class="iframe"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d758.6140491174469!2d-3.9671956707556855!3d40.48729411868702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd419d6c076ca8d7%3A0x5545ccb42bcbc8c3!2sCalle%20de%20Mallorca%2C%201%2C%2028229%20Villanueva%20del%20Pardillo%2C%20Madrid!5e0!3m2!1ses!2ses!4v1589448227937!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+<h1>Telefono</h1>
+<h2>918181818</h2>
+</section>
 
-        <label for="nombre">Nombre y Apellidos</label>
-        <input id="caja" name="datos" type="text" onfocus="restaurar()" />
+   
 
-        <label for="nombre">Email</label>
-        <input id="caja"name="correo" type="email" onfocus="restaurar()"/>
 
-        <label for="nombre">Telefono</label>
-        <input id="caja" name="telefono" type="tel" onfocus="restaurar()" />
-
-        <label for="nombre">Telefono movil</label>
-        <input id="caja" name="movil" type="tel" onfocus="restaurar()" />
-        <hr />
-
-        <label for="nombre">Comentarios </label><br />
-
-        <textarea name="asunto" id="" cols="150" rows="10" onfocus="restaurar()"></textarea><br />
-        <input type="checkbox" /> Acepto la Política de Privacidad <br />
-        <input type="submit"  id="btn"  value="Enviar"></a> 
-        <script src="../javascript/formulario2.js"></script>
-        <input type="reset" value="resetear" /><br />
-      </form>
-      <p id="aviso"></p>
-      </div>
-    </fieldset>
-
+      <hr />
     <img id="gif" src="../fotos/imagenes/Gifs/gif1.gif" alt="" />
     <footer>
       <table>
