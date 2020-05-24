@@ -23,6 +23,36 @@
                     <img ><xsl:attribute name="align"><xsl:value-of select="centrar"/></xsl:attribute><xsl:attribute name="width"><xsl:value-of select="ancho"/></xsl:attribute><xsl:attribute name="src"><xsl:value-of select="url"/></xsl:attribute></img>
                     <hr />
                 </xsl:for-each>
+                <footer>
+                    <table>
+                        <tr>
+                            <td><a href="../html/index2.html" target="_blank"> Home
+                            </a>
+                            </td>
+                            <td>
+            <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad">
+            <img src="../fotos/Iconos/pago/visa.png" alt="Visa">
+            <img src="../fotos/Iconos/pago/amex.png" alt="American Express">
+            <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay">
+            <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal">
+            </td>
+                            <td>
+                                <img
+                                    src="../fotos/Iconos/redes sociales/facebook.png"
+                                    alt="error"
+                                />
+                                <img
+                                    src="../fotos/iconos/redes sociales/instagram.png"
+                                    alt="error"
+                                />
+                                <img
+                                    src="../fotos/iconos/redes sociales/twitter.png"
+                                    alt="error"
+                                />
+                            </td>
+                        </tr>
+                    </table>
+                </footer>
             </body>
         </html>
     </xsl:template>

@@ -4,6 +4,8 @@ body {
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 50%, rgb(240, 92, 195) 100%);
   color: #eeeeee;
+  height: 100%;
+  width: 100%;
   background-size: contain;
   text-align: center;
 }
@@ -83,7 +85,7 @@ h5{
 }
 .iframe{
  width: 100%;
- height: 50%;
+ height: 35%;
 }
 a,
 p {
@@ -457,6 +459,25 @@ h1{
   right: 22%;
   bottom: 8%;
 }
+/*amimacion*/
+
+.animacion {
+  
+  position: absolute;
+  width: 70%;
+height: 15%;
+top:140%;
+margin-left: 5%;
+margin-bottom: 0;
+ 
+}
+
+.animacion li{
+list-style: none;
+font-size: 20px;
+font-family: "Cherry Swash", cursive;
+color: indigo;
+}
 
 /*footer*/
 footer {
@@ -478,9 +499,6 @@ a {
 }
 table td {
   width: 33%;
-  
 }
-table td:first-child{
-  padding: 10px 10px;
-}
+
 
