@@ -1,7 +1,13 @@
 body {
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    background: black;
+    background: rgb(65, 65, 65);
+    background: linear-gradient(
+      90deg,
+      rgb(33, 46, 240) 0%,
+      rgb(255, 250, 250) 50%,
+      rgb(245, 32, 32) 100%
+    );
     color: #eeeeee;
     padding: 0;
     margin: 0;
@@ -22,24 +28,30 @@ body {
     font-family: "Cherry Swash", cursive;
   }
 
-   /*footer*/
+  /*footer*/
 footer {
   background: rgb(65, 65, 65);
-  background: linear-gradient(90deg, rgb(3, 3, 3) 0%, rgb(94, 93, 93)50%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(3, 3, 3) 0%,
+    rgb(94, 93, 93) 50%,
+    rgb(255, 255, 255) 100%
+  );
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 50px;
 }
-  table{
-width: 100%; 
-  }
-table td{
+table {
+  width: 100%;
+}
+a {
+  color: #eeeeee;
   font-size: 25px;
   font-family: "Cherry Swash", cursive;
-  width: 33%;
-}
-a{
-  color: #eeeeee;
   text-decoration: none;
+}
+table td {
+  width: 40%;
+  
 }

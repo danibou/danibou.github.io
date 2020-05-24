@@ -36,36 +36,37 @@
                         <p><xsl:value-of select="precio"/></p>
                     </div>
                 </xsl:for-each>
-                <footer>
+                   <footer>
                     <table>
                         <tr>
                             <td><a href="../html/index2.html" target="_blank"> Home
                             </a>
                             </td>
                             <td>
-                            <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad">
-                             <img src="../fotos/Iconos/pago/visa.png" alt="Visa">
-                             <img src="../fotos/Iconos/pago/amex.png" alt="American Express">
-                              <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay">
-                               <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal">
-                               </td>
+            <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
+            <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
+            <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
+            <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>
+            <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal"/>
+            </td>
                             <td>
                                 <img
                                     src="../fotos/Iconos/redes sociales/facebook.png"
-                                    alt="error"
+                                    alt="faceboo"
                                 />
                                 <img
                                     src="../fotos/iconos/redes sociales/instagram.png"
-                                    alt="error"
+                                    alt="instagram"
                                 />
                                 <img
                                     src="../fotos/iconos/redes sociales/twitter.png"
-                                    alt="error"
+                                    alt="twitter"
                                 />
                             </td>
                         </tr>
                     </table>
                 </footer>
+
             </body>
         </html>
     </xsl:template>

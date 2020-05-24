@@ -1,63 +1,63 @@
 body {
   background-image: url(../fotos/Fondos/1065.jpg);
-    font-size: 12px;
-    font-family: "Lato", sans-serif;
-    
-    color: #eeeeee;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-  audio{
-    height:20px;
-    width: 40%;
-  }
-  h1{
-    
-    text-shadow: 3px 3px black;
-    font-family: "Cherry Swash", cursive;
-    font-size: 50px
-    
-  }
-  div{
-    box-shadow: 3px 3px black;
-    display: inline-block;
-    margin: 10px;
-    
-  }
-  p{
-    font-size: 25px;
-    font-family: "Cherry Swash", cursive;
-    color: black;
-  }
-  #postit{
-    background-color: rgb(236, 236, 119);
-    height: 250px;
-    width: 300px;
-    
-  }
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
 
-  
-   /*footer*/
+  color: #eeeeee;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+audio {
+  height: 20px;
+  width: 40%;
+}
+h1 {
+  text-shadow: 3px 3px black;
+  font-family: "Cherry Swash", cursive;
+  font-size: 50px;
+}
+div {
+  box-shadow: 3px 3px black;
+  display: inline-block;
+  margin: 10px;
+}
+p {
+  font-size: 25px;
+  font-family: "Cherry Swash", cursive;
+  color: black;
+}
+#postit {
+  background-color: rgb(236, 236, 119);
+  height: 250px;
+  width: 350px;
+}
+
+
+/*footer*/
 footer {
   background: rgb(65, 65, 65);
-  background: linear-gradient(90deg, rgb(3, 3, 3) 0%, rgb(94, 93, 93)50%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(3, 3, 3) 0%,
+    rgb(94, 93, 93) 50%,
+    rgb(255, 255, 255) 100%
+  );
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 50px;
 }
-  table{
-width: 100%; 
-  }
-table td{
+table {
+  width: 100%;
+}
+a {
+  color: #eeeeee;
   font-size: 25px;
   font-family: "Cherry Swash", cursive;
-  width: 33%;
-}
-a{
-  color: #eeeeee;
   text-decoration: none;
 }
-
+table td {
+  width: 40%;
   
+}
