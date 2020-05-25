@@ -35,6 +35,7 @@ body {
     -webkit-transform-style: preserve-3d;
     transform: rotateY(180deg);
     transform-style: preserve-3d;
+    filter: sepia(60%);
   }
   h1,h5{
     text-align: center;

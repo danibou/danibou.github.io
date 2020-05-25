@@ -21,8 +21,13 @@ body {
   }
 
  
-  .imagen:hover {filter: opacity(.5);}
-  
+ .imagen:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  filter: grayscale(80%);
+}
   h1,h5{
     text-align: center;
     margin: 40px 0 40px;
