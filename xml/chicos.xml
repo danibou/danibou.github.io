@@ -2,28 +2,28 @@
 <?xml-stylesheet type="text/xsl" href="xsl/chicos.xsl"?>
 <chicos>
     <imagen>
-<centrar>left</centrar>
-<ancho>25%</ancho>
+        <centrar>left</centrar>
+        <ancho>25%</ancho>
         <url>../fotos/imagenes/Chicos/prueba.jpg</url>
     </imagen>
     <imagen>
-    <centrar>center</centrar>
-<ancho>25%</ancho>
+        <centrar>center</centrar>
+        <ancho>25%</ancho>
         <url>../fotos/imagenes/Chicos/prueba_2.jpg</url>
     </imagen>
     <imagen>
-    <centrar>right</centrar>
-<ancho>25%</ancho>
+        <centrar>right</centrar>
+        <ancho>25%</ancho>
         <url>../fotos/imagenes/Chicos/prueba_3.jpg</url>
     </imagen>
     <imagen>
-    <centrar>center</centrar>
-<ancho>25%</ancho>
+        <centrar>center</centrar>
+        <ancho>25%</ancho>
         <url>../fotos/imagenes/Chicos/prueba_4.jpg</url>
     </imagen>
     <imagen>
-    <centrar>left</centrar>
-<ancho>25%</ancho>
+        <centrar>left</centrar>
+        <ancho>25%</ancho>
         <url>../fotos/imagenes/Chicos/prueba_5.jpg</url>
     </imagen>
 </chicos>

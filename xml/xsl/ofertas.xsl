@@ -8,9 +8,9 @@
        
         <html>
             <head>
-            
             <link rel="stylesheet" type="text/css" href="../css/ofertas.css" />
             </head>
+
             <body>
                 <audio src="../audio/Various - Ahora '00 - Disk 4 of 4 - 10. PROGRESS presents THE BOY WUNDA - Everybody.mp3">
                     
@@ -43,7 +43,7 @@
                             </a>
                             </td>
                             <td>
-            <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
+             <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
             <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
             <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
             <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>

@@ -1,13 +1,15 @@
 body {
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    background: rgb(65, 65, 65);
+    background: rgb(230, 128, 243);
+    
   background: linear-gradient(
     90deg,
     rgb(247, 3, 214) 0%,
     rgb(243, 243, 243) 50%,
     rgb(247, 3, 214) 100%
   );
+  
     color: #eeeeee;
     padding: 0;
     margin: 0;
@@ -39,6 +41,7 @@ body {
    /*footer*/
 footer {
   background: rgb(65, 65, 65);
+  
   background: linear-gradient(
     90deg,
     rgb(3, 3, 3) 0%,

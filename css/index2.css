@@ -483,6 +483,7 @@ h1 {
 /*footer*/
 footer {
   background: rgb(65, 65, 65);
+  
   background: linear-gradient(
     90deg,
     rgb(3, 3, 3) 0%,

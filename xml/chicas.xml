@@ -2,29 +2,29 @@
 <?xml-stylesheet type="text/xsl" href="xsl/chicas.xsl"?>
 <chicas>
     <imagen>
-    <centrar>left</centrar>
-    <ancho>25%</ancho>
-    <url>../fotos/imagenes/Chicas/prueba.jpg</url>
+        <centrar>left</centrar>
+        <ancho>25%</ancho>
+        <url>../fotos/imagenes/Chicas/prueba.jpg</url>
     </imagen>
     <imagen>
-    <centrar>center</centrar>
-    <ancho>25%</ancho>
-     <url>../fotos/imagenes/Chicas/prueba_2.jpg</url>
+        <centrar>center</centrar>
+        <ancho>25%</ancho>
+        <url>../fotos/imagenes/Chicas/prueba_2.jpg</url>
     </imagen>
     <imagen>
-    <centrar>right</centrar>
-    <ancho>25%</ancho>
-    <url>../fotos/imagenes/Chicas/prueba_3.jpg</url>
+        <centrar>right</centrar>
+        <ancho>25%</ancho>
+        <url>../fotos/imagenes/Chicas/prueba_3.jpg</url>
     </imagen>
     <imagen>
-    <centrar>center</centrar>
-    <ancho>25%</ancho>
-    <url>../fotos/imagenes/Chicas/prueba_4.jpg</url>
+    <   centrar>center</centrar>
+        <ancho>25%</ancho>
+        <url>../fotos/imagenes/Chicas/prueba_4.jpg</url>
     </imagen>
     <imagen>
-    <centrar>left</centrar>
-    <ancho>25%</ancho>
-    <url>../fotos/imagenes/Chicas/prueba_5.jpg</url>
+        <centrar>left</centrar>
+        <ancho>25%</ancho>
+        <url>../fotos/imagenes/Chicas/prueba_5.jpg</url>
     </imagen>
   
 </chicas>

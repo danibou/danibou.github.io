@@ -29,7 +29,7 @@
                             </a>
                             </td>
                             <td>
-            <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
+             <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
             <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
             <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
             <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>
