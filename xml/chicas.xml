@@ -17,7 +17,7 @@
         <url>../fotos/imagenes/Chicas/prueba_3.jpg</url>
     </imagen>
     <imagen>
-    <   centrar>center</centrar>
+    <centrar>center</centrar>
         <ancho>25%</ancho>
         <url>../fotos/imagenes/Chicas/prueba_4.jpg</url>
     </imagen>
