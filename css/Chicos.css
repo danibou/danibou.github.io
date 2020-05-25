@@ -19,7 +19,10 @@ body {
     height:20px;
     width: 40%;
   }
+
  
+  .imagen:hover {filter: opacity(.5);}
+  
   h1,h5{
     text-align: center;
     margin: 40px 0 40px;

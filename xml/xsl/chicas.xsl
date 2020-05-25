@@ -19,7 +19,10 @@
                 <h5>For Girls</h5>
                 <hr />
                 <xsl:for-each select="chicas/imagen">
+                <div class="imagen">
                     <img ><xsl:attribute name="align"><xsl:value-of select="centrar"/></xsl:attribute><xsl:attribute name="width"><xsl:value-of select="ancho"/></xsl:attribute><xsl:attribute name="src"><xsl:value-of select="url"/></xsl:attribute></img>
+                  </div>
+                  
                     <hr />
                 </xsl:for-each>
                           <footer>
