@@ -30,7 +30,7 @@
     <div id="right" align="right">
        
     <fieldset > 
-  <form id="form2" name="formulario2" onsubmit="return comprobar2()">
+  <form id="form2" name="formulario2" onclick="return comprobar2()">
       <h1 id="titulo">Cita</h1>
 <label id="form2" for="fecha">Fecha</label>
 <input id="form2" type="date" min="2020-01-01" max="2020-12-31" name="fecha" onfocus="restaurar2()"><br>
@@ -38,7 +38,7 @@
 <label id="form2" for="hora">Hora</label>
 <input id="form2" type="time" name="hora"  onfocus="restaurar2()"><br>
 
-<input id="form2" type="submit"  id="btn2"  value="Pedir"> 
+<input id="form2" type="button"  id="btn2"  value="Pedir"> 
 <script src="../javascript/formulario.js"></script>
 <input id="form2" type="reset" value="resetear" /><br />
   </form>  
@@ -48,7 +48,7 @@
 
 <div id="left" align="left">
     <fieldset>
-  <form id="form" name="formulario"  onsubmit="return comprobar()">
+  <form id="form" name="formulario"  onclick="return comprobar()">
 
           <h1 id="titulo2">Contacta con nosotros </h1>
           <h4 >Para contactar, por favor, rellene el siguiente formulario.</h4>
@@ -79,7 +79,7 @@
     <textarea name="asunto" id="" cols="80" rows="10" onfocus="restaurar()"></textarea><br />
      <label for="privacidad"> Acepto la Política de Privacidad <input type="checkbox" /></label>  <br />
     
-    <input type="submit"  id="btn"  value="Enviar"> 
+    <input type="button"  id="btn"  value="Enviar" > 
     <script src="../javascript/formulario2.js"></script>
     <input type="reset" value="resetear" /><br />
   </form>

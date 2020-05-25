@@ -13,6 +13,7 @@ crear("#btn").addEventListener("click",function(){
        var aviso = document.getElementById("aviso");
        aviso.innerHTML = ""
        var enviar = "si"
+
        if (datos.value == "" || datos.value.indexOf(" ") == 0) {
           var texto = "Es obligatorio introducir nombre y apellidos.<br/>"  
           aviso.innerHTML += texto

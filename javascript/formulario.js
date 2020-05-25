@@ -25,11 +25,11 @@ enviar="no"
 }
 if (hora.value < 9 || hora.value > 19) {
 var texto = "La hora esta fuera del horario .<br/>"  
-aviso2.innerHTML += texto
+aviso2.innerHTML = texto
 enviar = "no"
 }else{
 var texto="Hora: " + hora.value + "<br/>"
-aviso2.innerHTML += texto
+aviso2.innerHTML = texto
 enviar="no"
 }
 
