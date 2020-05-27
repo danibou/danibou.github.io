@@ -1,47 +1,45 @@
 crear2("#btn2").addEventListener("click",function(){
-           
+    comprobar2();       
   
 })
 
 function comprobar2() { 
+var nombre = document.formulario2.nombre.value;
+var hora = document.formulario2.hora.value;
 
-var fecha = document.formulario2.fecha;
-var hora = document.formulario2.hora;
-var f1 = new Date(2020, 12, 31); 
-var f2 = new Date(2020, 01, 01);
 
 var aviso2 = document.getElementById("aviso2");
-aviso.innerHTML = ""
-var enviar = "si"
+aviso2.innerHTML = ""
+var enviar2 = "si"
 
-if (fecha.value > f1 || fecha.value < f2) {
-var texto = "Es obligatorio introducir una fecha valida.<br/>"  
-aviso2.innerHTML += texto
-enviar = "no"
+if (nombre == "" || nombre.indexOf(" ") == 0) {
+    var texto = "Es obligatorio introducir nombre y apellidos.<br/>"  
+    aviso2.innerHTML += texto
+    enviar2 = "no"
 }else{
-var texto="Fecha: "+ fecha.value + "<br/>"
-aviso2.innerHTML += texto
-enviar="no"
-}
-if (hora.value < 9 || hora.value > 19) {
-var texto = "La hora esta fuera del horario .<br/>"  
-aviso2.innerHTML = texto
-enviar = "no"
+    var texto="Nombre y Apellidos: "+ nombre + "<br/>"
+    aviso2.innerHTML += texto
+    enviar2="no"
+    }
+if (hora < 9 || hora > 19) {
+    var texto = "La hora esta fuera del horario .<br/> Horario 9:00-19:00 <br/> Introduzca nueva hora "  
+    aviso2.innerHTML += texto
+    enviar2 = "no"
 }else{
-var texto="Hora: " + hora.value + "<br/>"
-aviso2.innerHTML = texto
-enviar="no"
+    var texto="Hora: " + hora + "<br/> Reserva confirmada"
+    aviso2.innerHTML += texto
+    enviar2="no"
 }
 
 
 
-if (enviar == "no") {return false} 
+if (enviar2 == "no") {return false} 
 
 }
 
 function restaurar2() {
 var aviso2 = document.getElementById("aviso2");
-aviso.innerHTML = ""
+aviso2.innerHTML = ""
 }  
 
 

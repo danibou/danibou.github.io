@@ -22,109 +22,172 @@
       <div class="animation start-home"></div>
     </nav>
 
-   
-
     <hr />
-  
-   
+
     <div id="right" align="right">
-       
-    <fieldset > 
-  <form id="form2" name="formulario2" onclick="return comprobar2()">
-      <h1 id="titulo">Cita</h1>
-<label id="form2" for="fecha">Fecha</label>
-<input id="form2" type="date" min="2020-01-01" max="2020-12-31" name="fecha" onfocus="restaurar2()"><br>
+      <fieldset>
+        <form id="form2" name="formulario2">
+          <h1 id="titulo">
+            Cita <img src="../fotos/Iconos/calendario.png" alt="calendario" />
+          </h1>
 
-<label id="form2" for="hora">Hora</label>
-<input id="form2" type="time" name="hora"  onfocus="restaurar2()"><br>
+          <label id="form2" for="fecha">Nombre y Apellidos de la reserva</label>
+          <input
+            id="form2"
+            type="text"
+            name="nombre"
+            onfocus="restaurar2()"
+          /><br />
 
-<input id="form2" type="button"  id="btn2"  value="Pedir"> 
-<script src="../javascript/formulario.js"></script>
-<input id="form2" type="reset" value="resetear" /><br />
-  </form>  
-  <p  align="left" id="aviso2"></p>  
-</div>
-</fieldset >
+          <label id="form2" for="hora">Hora</label>
+          <input
+            id="form2"
+            type="time"
+            name="hora"
+            onfocus="restaurar2()"
+          /><br />
 
-<div id="left" align="left">
-    <fieldset>
-  <form id="form" name="formulario"  onclick="return comprobar()">
+          <input
+            id="form2"
+            type="button"
+            id="btn2"
+            value="Reserva"
+            onclick="return comprobar2()"
+          />
+          <script src="../javascript/formulario.js"></script>
+          <input id="form2" type="reset" value="resetear" /><br />
+        </form>
+        <p align="left" id="aviso2"></p>
+      </fieldset>
+    </div>
 
-          <h1 id="titulo2">Contacta con nosotros </h1>
-          <h4 >Para contactar, por favor, rellene el siguiente formulario.</h4>
-       
-    <label for="nombre">Motivo</label>
-    <select name="motivo" id="motivo">
-      <option value="-"></option>
-      <option value="">Reclamacion</option>
-      <option value="">Sugerencia</option>
-      <option value="">Publicidad</option> </select
-    ><br />
+    <div id="left" align="left">
+      <fieldset>
+        <form id="form" name="formulario">
+          <h1 id="titulo2">
+            Contacta con nosotros
+            <img src="../fotos/Iconos/correo.png" alt="correo" />
+          </h1>
+          <h4>Para contactar, por favor, rellene el siguiente formulario.</h4>
 
-    <label for="nombre">Nombre y Apellidos</label>
-    <input id="caja" name="datos" type="text" onfocus="restaurar()" /><br>
+          <label for="nombre">Motivo</label>
+          <select name="motivo" id="motivo">
+            <option value="-"></option>
+            <option value="">Reclamacion</option>
+            <option value="">Sugerencia</option>
+            <option value="">Publicidad</option> </select
+          ><br />
 
-    <label for="nombre">Email</label>
-    <input id="caja"name="correo" type="email" onfocus="restaurar()"/><br>
+          <label for="nombre">Nombre y Apellidos</label>
+          <input
+            id="caja"
+            name="datos"
+            type="text"
+            onfocus="restaurar()"
+          /><br />
 
-    <label for="nombre">Telefono</label>
-    <input id="caja" name="telefono" type="tel" onfocus="restaurar()" /><br>
+          <label for="nombre">Email</label>
+          <input
+            id="caja"
+            name="correo"
+            type="email"
+            onfocus="restaurar()"
+          /><br />
 
-    <label for="nombre">Telefono movil</label>
-    <input id="caja" name="movil" type="tel" onfocus="restaurar()" /><br>
+          <label for="nombre">Telefono</label>
+          <input
+            id="caja"
+            name="telefono"
+            type="tel"
+            onfocus="restaurar()"
+          /><br />
 
+          <label for="nombre">Telefono movil</label>
+          <input
+            id="caja"
+            name="movil"
+            type="tel"
+            onfocus="restaurar()"
+          /><br />
 
-    <label for="nombre">Comentarios </label><br />
+          <label for="nombre">Comentarios </label><br />
 
-    <textarea name="asunto" id="" cols="80" rows="10" onfocus="restaurar()"></textarea><br />
-     <label for="privacidad"> Acepto la Política de Privacidad <input type="checkbox" /></label>  <br />
-    
-    <input type="button"  id="btn"  value="Enviar" > 
-    <script src="../javascript/formulario2.js"></script>
-    <input type="reset" value="resetear" /><br />
-  </form>
-  <p  align="left" id="aviso"></p>
-</fieldset>
- 
-  </div>
-<section>
-  <h1 >Localizacion</h1>
-  <iframe  class="iframe"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d758.6140491174469!2d-3.9671956707556855!3d40.48729411868702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd419d6c076ca8d7%3A0x5545ccb42bcbc8c3!2sCalle%20de%20Mallorca%2C%201%2C%2028229%20Villanueva%20del%20Pardillo%2C%20Madrid!5e0!3m2!1ses!2ses!4v1589448227937!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
-<h1>Telefono</h1>
-<h2>918181818</h2>
-</section>
+          <textarea
+            name="asunto"
+            id=""
+            cols="80"
+            rows="10"
+            onfocus="restaurar()"
+          ></textarea
+          ><br />
+          <label for="privacidad">
+            Acepto la Política de Privacidad <input type="checkbox"
+          /></label>
+          <br />
 
-   
+          <input
+            type="button"
+            id="btn"
+            value="Enviar"
+            onclick="return comprobar()"
+          />
+          <script src="../javascript/formulario2.js"></script>
+          <input type="reset" value="resetear" /><br />
+        </form>
+        <p align="left" id="aviso"></p>
+      </fieldset>
+    </div>
+    <section>
+      <h1><img src="../fotos/Iconos/coche.png" alt="coche" /> Localizacion</h1>
+      <iframe
+        class="iframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d758.6140491174469!2d-3.9671956707556855!3d40.48729411868702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd419d6c076ca8d7%3A0x5545ccb42bcbc8c3!2sCalle%20de%20Mallorca%2C%201%2C%2028229%20Villanueva%20del%20Pardillo%2C%20Madrid!5e0!3m2!1ses!2ses!4v1589448227937!5m2!1ses!2ses"
+        width="600"
+        height="450"
+        frameborder="0"
+        style="border:0;"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
 
+      <h1>Telefono: <span>918181818</span></h1>
+      
+      <img src="../fotos/Iconos/telefono.png" alt="telefono" />
+    </section>
 
-      <hr />
     <img id="gif" src="../fotos/imagenes/Gifs/gif1.gif" alt="" />
     <footer>
-      <table>
-        <tr>
-          <td><a href="../html/index2.html" target="_blank"> Home</a></td>
-          <td> 
-            <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
-            <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
-            <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
-            <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>
-            <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal"/></td>
-          <td>
-              <img
-              src="../fotos/Iconos/redes sociales/facebook.png"
-              alt="Facebook"
-            />
-            <img
-              src="../fotos/iconos/redes sociales/instagram.png"
-              alt="Instagram"
-            />
-            <img
-              src="../fotos/iconos/redes sociales/twitter.png"
-              alt="errortwitter"
-            />
-          </td>
-        </tr>
-      </table>
+      <div class="contacto">
+        <a href="../html/index2.html" target="_self"> Home </a>
+      </div>
+
+      <div class="pago">
+          <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
+          <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
+          <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
+          <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>
+          <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal"/>
+        </div>
+
+
+
+        <div class="redes">
+          <img
+          src="../fotos/Iconos/redes sociales/facebook.png"
+          alt="Facebook"
+        />
+        <img
+          src="../fotos/iconos/redes sociales/instagram.png"
+          alt="Instagram"
+        />
+        <img
+          src="../fotos/iconos/redes sociales/twitter.png"
+          alt="errortwitter"
+        />
+        
+
+      </div>  
     </footer>
   </body>
 </html>

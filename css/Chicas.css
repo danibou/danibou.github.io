@@ -61,9 +61,7 @@ footer {
   width: 100%;
   height: 50px;
 }
-table {
-  width: 100%;
-}
+
 a {
   color: #eeeeee;
   font-size: 25px;
@@ -71,10 +69,13 @@ a {
   text-decoration: none;
   text-align: center
 }
-table td {
-  width: 40%;
+.contacto{
+  margin-left: 8%;
+  width: 25%;
+  float: left;
   
 }
-table td:first-child{
-  left: 50px;
+.redes, .pago{
+  width: 33%;
+  float: right;
 }

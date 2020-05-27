@@ -29,35 +29,38 @@
                 <hr />
             </xsl:for-each>
                          <footer>
-                    <table>
-                        <tr>
-                            <td><a href="../html/index2.html" target="_blank"> Home
-                            </a>
-                            </td>
-                            <td>
-             <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
-            <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
-            <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
-            <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>
-            <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal"/>
-            </td>
-                            <td>
-                                <img
-                                    src="../fotos/Iconos/redes sociales/facebook.png"
-                                    alt="faceboo"
-                                />
-                                <img
-                                    src="../fotos/iconos/redes sociales/instagram.png"
-                                    alt="instagram"
-                                />
-                                <img
-                                    src="../fotos/iconos/redes sociales/twitter.png"
-                                    alt="twitter"
-                                />
-                            </td>
-                        </tr>
-                    </table>
-                </footer>
+      <div class="contacto">
+        <a href="../html/index2.html" target="_self"> Home </a>
+      </div>
+<div class="pago">
+              <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
+              <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
+              <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
+              <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>
+              <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal"/>
+            </div>
+
+
+
+            <div class="redes">
+              <img
+              src="../fotos/Iconos/redes sociales/facebook.png"
+              alt="Facebook"
+            />
+            <img
+              src="../fotos/iconos/redes sociales/instagram.png"
+              alt="Instagram"
+            />
+            <img
+              src="../fotos/iconos/redes sociales/twitter.png"
+              alt="errortwitter"
+            />
+            
+
+          </div>  
+
+      
+    </footer>
         </body>
     </html>
     </xsl:template>
