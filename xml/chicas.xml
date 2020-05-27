@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="chicas.xsl"?>
-<!DOCTYPE chicas SYSTEM "../dtd/chicas.dtd">
+
 <chicas>
     <imagen>
         <centrar>left</centrar>
