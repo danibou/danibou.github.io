@@ -40,8 +40,8 @@
 
                 <div class="redes">
                       <img src="../fotos/Iconos/redes sociales/facebook.png" alt="Facebook"/>
-                      <img src="../fotos/iconos/redes sociales/instagram.png" alt="Instagram"/>
-                      <img src="../fotos/iconos/redes sociales/twitter.png" alt="twitter"/>
+                      <img src="../fotos/Iconos/redes sociales/instagram.png" alt="Instagram"/>
+                      <img src="../fotos/Iconos/redes sociales/twitter.png" alt="twitter"/>
                 </div>  
 
       
