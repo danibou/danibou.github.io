@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding='ISO-8859-1'?>
 <?xml-stylesheet type="text/xsl" href="chicas.xsl"?>
-
+<!DOCTYPE chicos SYSTEM "../dtd/chicas.dtd">
 <chicas>
     <imagen>
         <centrar>left</centrar>
