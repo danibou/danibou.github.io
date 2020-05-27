@@ -12,9 +12,9 @@ body{
 
 .fondo2{
     position: absolute;
-    margin: 35% 25%; 
+    margin: 30% 25%; 
     width: 50%;
-    width: 50%
+   
 }
 section{
     position: absolute;
@@ -31,7 +31,7 @@ fieldset{
 form{
     color: white;
 }
-h1{
+h2{
     color: rgb(0, 0, 0);
     background-color: black;
     background: linear-gradient(
@@ -51,3 +51,4 @@ p{  position: relative;
     font-size: 25px;
     text-align: center;
 }
+

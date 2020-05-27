@@ -55,9 +55,10 @@ if (enviar == "no") {
 
       for (let i=0;i<6;i++){
          if (usuarios[i]==usuario && contraseñas[i]==contraseña){
-          alert ("Bienvenido")
-          return true 
+          alert ("Bienvenido");
          
+          return true 
+      
               }
               else{
                
