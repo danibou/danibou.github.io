@@ -10,55 +10,39 @@
             <audio src="../audio/xtm-dj-chucky-fly on the wings of love.mp3"></audio>
             <h1>Zona Barber</h1>
             <hr />
-            <img
-                height="150px"
-                width="150px"
-                src="../fotos/imagenes/Chicos/logo-barberia-calavera.jpg"
-                alt=""
-            />
+            <img height="150px" width="150px" src="../fotos/imagenes/Chicos/logo-barberia-calavera.jpg" alt="logo"/>
             <h5>For Boys</h5>
             <hr />
             
-            <xsl:for-each select="chicos/imagen">
-            <div class="imagen">
-<img ><xsl:attribute name="align"><xsl:value-of select="centrar"/></xsl:attribute><xsl:attribute name="width"><xsl:value-of select="ancho"/></xsl:attribute><xsl:attribute name="src"><xsl:value-of select="url"/></xsl:attribute></img>                  
-                </div>
-                <hr />
-            </xsl:for-each>
+                <xsl:for-each select="chicos/imagen">
+                     <div class="imagen">
+                     <img ><xsl:attribute name="align"><xsl:value-of select="centrar"/></xsl:attribute><xsl:attribute name="width"><xsl:value-of select="ancho"/></xsl:attribute><xsl:attribute name="src"><xsl:value-of select="url"/></xsl:attribute></img>                  
+                    </div>
+                     <hr />
+                </xsl:for-each>
                          <footer>
-      <div class="contacto">
-        <a href="../html/index2.html" target="_self"> Home </a>
-      </div>
-<div class="pago">
-              <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
-              <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
-              <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
-              <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>
-              <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal"/>
-            </div>
+                            <div class="contacto">
+                                 <a href="../html/index2.html" target="_self"> Home </a>
+                           </div>
+                            <div class="pago">
+                                   <img src="../fotos/Iconos/pago/icons8-mastercard-64.png" alt="Mastercad"/>
+                                   <img src="../fotos/Iconos/pago/visa.png" alt="Visa"/>
+                                   <img src="../fotos/Iconos/pago/amex.png" alt="American Express"/>
+                                   <img src="../fotos/Iconos/pago/apple.png" alt="Apple pay"/>
+                                   <img src="../fotos/Iconos/pago/paypal.png" alt="Paypal"/>
+                            </div>
 
 
 
-            <div class="redes">
-              <img
-              src="../fotos/Iconos/redes sociales/facebook.png"
-              alt="Facebook"
-            />
-            <img
-              src="../fotos/iconos/redes sociales/instagram.png"
-              alt="Instagram"
-            />
-            <img
-              src="../fotos/iconos/redes sociales/twitter.png"
-              alt="errortwitter"
-            />
-            
-
-          </div>  
+                           <div class="redes">
+                                  <img src="../fotos/Iconos/redes sociales/facebook.png" alt="Facebook"/>
+                                  <img src="../fotos/iconos/redes sociales/instagram.png" alt="Instagram" />
+                                  <img src="../fotos/iconos/redes sociales/twitter.png" alt="twitter"/>
+                          </div>  
 
       
-    </footer>
-        </body>
-    </html>
+                         </footer>
+               </body>
+          </html>
     </xsl:template>
 </xsl:stylesheet>
