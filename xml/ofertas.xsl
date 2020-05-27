@@ -6,8 +6,7 @@
         <html>
             <head>
             <link rel="stylesheet" type="text/css" href="../css/Ofertas.css" />
-            <style>
-            </style>
+            
             </head>
 
             <body>
