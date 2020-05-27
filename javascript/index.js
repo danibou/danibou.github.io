@@ -1,6 +1,6 @@
            
            crear("#btn").addEventListener("click",function(){
-            segunda_comprobacion();
+            comprobacion();
             
          }   )
 

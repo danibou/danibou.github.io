@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <img src="../fotos/Fondos/registro3.jpg" alt="fondo2" class="fondo2">
+   
+    <section class="registro">
+            <H1> Registro</H1>
+    
+            <fieldset>
+    <form action="./index2.html" onsubmit="return comprobar3()" name="formulario" id="formulario"  >
+
+        <label for="nombre">Nombre</label><br>
+        <input type="text" name="nombre" onfocus="restaurar3()"><br>
+        <label for="apellidos">Apellidos</label><br>
+        <input type="text" name="apellidos"onfocus="restaurar3()"><br>
+        <label for="sexo">Sexo</label><br>
+        <input type="radio" name="sexo"onfocus="restaurar3()">F
+        <input type="radio"name="sexo"onfocus="restaurar3()">M<br>
+        <label for="Contraseña">Contraseña</label><br>
+        <input type="password"name="contraseña"onfocus="restaurar3()"><br>
+        <label for="Contraseña">Repetir Contraseña</label><br>
+        <input type="password" name="contraseña2"onfocus="restaurar3()"><br>
+        <label for="correo">Email</label><br>
+        <input type="email" name="email"onfocus="restaurar3()"><br>
+        <label for="email">Repetir Email</label><br>
+        <input type="email" name="email2"onfocus="restaurar3()"><br>
+        <input type="submit" value="Enviar" id="btn3" >
+        <a href="../index.html"><input type="button" value="Atras"></a><br>
+        <a href="../html/index2.html"><input type="button" value="Home"></a>
+    </form>
+    <p align="left" id="aviso3"></p>
+    <script src="../javascript/registro.js"></script>
+            </fieldset>
+</section>
+
+</body>
+</html>

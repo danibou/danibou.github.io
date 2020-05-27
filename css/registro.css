@@ -1,0 +1,53 @@
+body{
+    position: relative;
+    background-color: black;
+    background: linear-gradient(
+    90deg,
+    rgb(175, 175, 175) 0%,
+    rgb(63, 63, 63) 25%,
+    rgb(63, 63, 63) 75%,
+    rgb(175, 175, 175) 100%
+  );  
+}
+
+.fondo2{
+    position: absolute;
+    margin: 35% 25%; 
+    width: 50%;
+    width: 50%
+}
+section{
+    position: absolute;
+    bottom: 100%;
+    margin: 0 25%;
+    width: 50%;
+    height: 25%;
+}
+fieldset{
+    background-image: url(../fotos/Fondos/registro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    color: white;
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: black;
+    background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(0, 0, 0) 100%
+  );
+    text-align: center;
+}
+p{  position: relative;
+    left: 20%;
+    width: 60%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: "Cherry Swash", cursive;
+    font-size: 25px;
+    text-align: center;
+}
