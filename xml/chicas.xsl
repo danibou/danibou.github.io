@@ -4,7 +4,7 @@
     <xsl:template match="/">
         <html> 
         <head>
-            <link rel="stylesheet" type="text/css" href="../css/chicas.css" />
+            <link rel="stylesheet" type="text/css" href="../css/Chicas.css" />
         </head>
             <body>
                 <audio src="../audio/Various - Ahora '00 - Disk 4 of 4 - 07. SUNNIVA - True Love.mp3" ></audio>

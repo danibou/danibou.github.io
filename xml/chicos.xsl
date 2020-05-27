@@ -4,7 +4,7 @@
     <xsl:template match="/">
     <html> 
       <head>
-          <link rel="stylesheet" type="text/css" href="../css/chicos.css" />
+          <link rel="stylesheet" type="text/css" href="../css/Chicos.css" />
       </head>
         <body>
             <audio src="../audio/xtm-dj-chucky-fly on the wings of love.mp3"></audio>
